@@ -639,20 +639,3 @@ python main.py --seed 42
 Also make sure the input CSV files have not changed.
 
 ---
-
-## 18. Suggested Next Steps
-
-This script is designed as a stable baseline. Good next steps include:
-
-- inspect `validation_predictions.csv` for high-error molecules
-- compare per-model predictions in `test_predictions.csv`
-- try scaffold-based or analog-based validation splits
-- tune `knn_k`, `n_bits`, and model hyperparameters
-- add carefully validated molecular features only when they improve validation reliability
-
----
-
-## 19. License and Usage
-
-This code is provided as a simple research baseline for molecular activity prediction.  
-Before submitting predictions to any challenge or benchmark, make sure your input data and submission format follow the official rules.
