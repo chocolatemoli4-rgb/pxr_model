@@ -1,4 +1,4 @@
-# OpenADMET PXR pEC50 Simple Baseline
+# OpenADMET PXR pEC50
 
 This repository contains a clean and simple baseline pipeline for the OpenADMET PXR activity prediction task.  
 The goal is to predict **pEC50** values for molecules from their chemical structures.
